@@ -23,33 +23,58 @@
     <div class= "wrapper">
         <nav class=" blue-grey darken-4">
             <div class="nav-wrapper ">
-                <a href="#" class="brand-logo">News</a>
+                <a href="#" class="brand-logo">Onion Scraps</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="">Home</a></li>
                     <li><a href="">Saved Articles</a></li>
                     <li><a href="">Get New Articles</a></li>
                 </ul>
             </div>
         </nav>
 
-        <div class="homepage-hero-module">
-            <div class="video-container">
-                <div class="filter"></div>
-                <video autoplay loop class="fillWidth">
-                        <source src="media/Urban-Jungle/MP4/Urban-Jungle.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-                        <source src="media/Urban-Jungle/WEBM/Urban-Jungle.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-                </video>
-                <h1 class="center-align"> Onion Articles </h1>
-                <div class="poster hidden">
-                    <img src="media/Urban-Jungle/Snapshots/Urban-Jungle.jpg" alt="">
+        
+        <div class="videoContainer">
+            <h1 id= "mainTitle" class="valign-wrapper center-align"> Onion Scraps </h1>
+            <div class="homepage-hero-module">
+                <div class="video-container">
+                    <div class="filter"></div>
+                    <video autoplay loop class="fillWidth">
+                            <source src="media/Urban-Jungle/MP4/Urban-Jungle.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                            <source src="media/Urban-Jungle/WEBM/Urban-Jungle.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                    </video>
+                    
+                    <div class="poster hidden">
+                        <img src="media/Urban-Jungle/Snapshots/Urban-Jungle.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+           <div>
+            <button id ="scrape"> scrape </button>
+            <button id= "getArticles"> Articles </button>
+        </div>   
+
+        <nav class=" blue-grey darken-4">
+            <div class="nav-wrapper ">
+                <a href="#" class="brand-logo">Onion Scraps</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <!-- <li id="scrape"><a href="">Scrape </a></li>
+                    <li id="getArticles"><a href=""> Articles </a></li> -->
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="container">
+            <div class= "row" id="row">
+                <div class="col s5" id="well">
+                    
+                </div>
+                <div class="col s5" id= "notesWell">
+                    <!-- <p> Notes </p> -->
                 </div>
             </div>
         </div>
 
-        <div class="well">
-            <button id ="scrape"> scrape </button>
-            <button id= "getArticles"> Articles </button>
-        </div>
     <div>
 
     <script src="app.js"></script>
