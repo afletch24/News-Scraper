@@ -18,7 +18,9 @@ body{
     border: solid black 2px;
     margin: 10px;
 }
- 
+ #commentsWell {
+     border: solid black 2px;
+ }
 #mainTitle {
     font-size: 120px;
     z-index: 100;
